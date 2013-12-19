@@ -1,0 +1,1 @@
+goto - a teleport to command for jc2-mp

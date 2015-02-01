@@ -1,5 +1,5 @@
 function ModulesLoad()
-    Events:FireRegisteredEvent( "HelpAddItem",
+    Events:Fire( "HelpAddItem",
         {
             name = "Goto",
             text = 
@@ -8,7 +8,7 @@ function ModulesLoad()
 end
 
 function ModuleUnload()
-    Events:FireRegisteredEvent( "HelpRemoveItem",
+    Events:Fire( "HelpRemoveItem",
         {
             name = "Goto"
         } )
